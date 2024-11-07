@@ -1,0 +1,7 @@
+llm:
+  temperature: 0
+  api_type: "openai"  # or azure / ollama / groq etc. Check LLMType for more options
+  model: "gpt-4o-mini"  # or gpt-3.5-turbo
+  base_url: "https://api.openai.com/v1"  # or forward url / other llm url
+  api_key: "ваш api ключ"
+  stream: False
